@@ -8,7 +8,7 @@ User=__APP__
 Group=__APP__
 Environment="PATH=__PATH_WITH_NODEJS__"
 Environment="NODE_ENV=production"
-WorkingDirectory=__INSTALL_DIR__/
+WorkingDirectory=__INSTALL_DIR__/examples/standalone/
 ExecStart=__NODEJS_DIR__/npm start
 Restart=on-failure
 
